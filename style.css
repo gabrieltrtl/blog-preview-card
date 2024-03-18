@@ -93,6 +93,7 @@ h1 {
 
   main {
     max-width: 24rem;
+    box-shadow: 16px 16px;
   }
 
   .blog-img {
