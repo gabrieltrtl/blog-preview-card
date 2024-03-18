@@ -36,13 +36,15 @@ main {
   border: 1px solid #000;
   max-width: 20.4375rem;
   padding: 1.5rem;
+  box-shadow: 8px 8px;
 }
 
 
 .blog-img {
   border-radius: 0.625rem;
   margin-bottom: 1.5rem;
-  height: 100%;
+  aspect-ratio: 2.77 / 2;
+  object-fit: cover;
 }
 
 main span {
@@ -50,10 +52,10 @@ main span {
   font-size: 0.75rem;
   background: #F4D04E;
   font-weight: 800;
-  padding: 4px 12px;
-  line-height: 150%;
+  padding: 0.25rem 0.75rem;
+  line-height: 1.5;
   border-radius: 0.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .date {
@@ -65,12 +67,14 @@ h1 {
   font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 0.75rem;
+  line-height: 1.5;
 }
 
 .main-paragraph {
   font-size: 0.875rem;;
   color: #7F7F7F;
   margin-bottom: 1.5rem;
+  line-height: 1.5;
 }
 
 .author-container {
@@ -83,5 +87,38 @@ h1 {
 
 .avatar {
   max-width: 2rem;
+}
+
+@media (min-width: 650px) {
+
+  main {
+    max-width: 24rem;
+  }
+
+  .blog-img {
+    aspect-ratio: 3.34 / 2;
+  }
+
+  main span {
+    font-size: 0.875rem;
+  }
+
+  .date {
+    font-size: 0.875rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h1:hover {
+    color: #F4D04E;
+    cursor: pointer;
+  }
+
+  .main-paragraph {
+    font-size: 1rem;
+  }
+
 }
 
