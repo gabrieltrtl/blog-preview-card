@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background: #F4D04E;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+  background: #FFF;
+  border-radius: 20px;
+  border: 1px solid #000;
+  max-width: 20.4375rem;
+  padding: 1.5rem;
+}
+
+
+.blog-img {
+  border-radius: 0.625rem;
+  margin-bottom: 1.5rem;
+  height: 100%;
+}
+
+main span {
+  display: inline-block;
+  font-size: 0.75rem;
+  background: #F4D04E;
+  font-weight: 800;
+  padding: 4px 12px;
+  line-height: 150%;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.date {
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+}
+
+.main-paragraph {
+  font-size: 0.875rem;;
+  color: #7F7F7F;
+  margin-bottom: 1.5rem;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.avatar {
+  max-width: 2rem;
+}
+
